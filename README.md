@@ -1,7 +1,7 @@
 # 💫 About Me:
 QA Senior focused on end-to-end quality across Web, Mobile, API and AI systems.
 
-Currently working at Blis AI validating conversational AI systems, ensuring consistency, reliability and stability in non-deterministic environments.
+Previously worked at Blis AI validating conversational AI systems, with a focus on consistency, reliability and stability in non-deterministic environments.
 
 Strong background in fintech and high-critical systems, with experience as Product Owner bringing product-driven quality mindset.
 
@@ -64,7 +64,7 @@ Strong background in fintech and high-critical systems, with experience as Produ
 ![Agents Validation](https://img.shields.io/badge/🕹️%20agents%20validation-111111?style=for-the-badge)
 
 ## 💼 Experience Snapshot:
-- QA Engineer at Blis AI working with conversational AI and automation
+- Former QA Engineer at Blis AI, working with conversational AI and automation
 - 3+ years in fintech and banking environments (MB Labs)
 - Experience with critical systems, reliability and performance
 - Former Product Owner with strong product mindset
