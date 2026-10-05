@@ -1,69 +1,72 @@
 # Bruno Baccari
 
-**QA Specialist · AI-assisted test automation · Web, Mobile & API Testing**
-
-Brazil · [LinkedIn](https://www.linkedin.com/in/baccari) · [Português](#português)
-
-## About me
-
-I work with software quality, test automation and AI-assisted QA. My focus is connecting business rules to what a system actually does: the user journey, the API behind it and the integrations that can change the outcome.
-
-I use Codex, Cursor and Antigravity to support test design, code analysis and automation. I also create internal QA skills and project instructions to give agents the context they need. Generated scenarios and code still need review and execution against the expected behavior.
-
-My background includes fintech and banking projects at MB Labs, where I split my work between QA and Product Owner responsibilities. I previously worked at Blis AI on conversational AI testing and automation. That product perspective shapes how I assess risk and question acceptance criteria.
-
-## How I approach quality
-
-- **Start with the rule.** Clarify the expected behavior, exceptions and acceptance criteria before writing assertions.
-- **Follow the change across repositories.** Read the relevant frontend, backend and test diffs together, including contracts and dependent flows.
-- **Use AI with project context.** Give the agent relevant rules, reusable skills and source material; review what it produces before treating it as evidence.
-- **Investigate failures.** Look at data, timing and shared state when a test is flaky. A passing retry is a reason to investigate, not a diagnosis.
-- **Make results inspectable.** Keep reproduction steps and execution evidence so another person can check the finding.
-
-I distinguish **using AI to help test software** from **testing AI applications**. The first supports the QA workflow. The second examines the behavior of conversational agents and LLM-based systems, including context, response consistency and unsupported answers.
-
-## Tools I work with
-
-| Area | Tools |
-| --- | --- |
-| Languages | Python, TypeScript, JavaScript, C# |
-| Web and mobile automation | Playwright, Robot Framework, Selenium, Cypress, Appium |
-| APIs and data | Postman, Swagger, PostgreSQL, Oracle SQL |
-| Delivery and environments | GitHub Actions, Azure DevOps, GitLab, Docker, Linux |
-| AI-assisted work | Codex, Cursor, Antigravity |
-
-## Public examples
-
-These repositories contain demonstrations of test automation. My internal company work and QA skills are not published here.
-
-- [Selenium checkout automation](https://github.com/brunobaccari/selenium-test-checkout-automation) — Python and Selenium.
-- [Robot Framework + Appium + Flutter demo](https://github.com/brunobaccari/RobotFramework-Appium-Flutter-Demo) — mobile test automation.
-- [Cypress + ServeRest](https://github.com/brunobaccari/cypress-serverest) — API test automation.
-
----
-
-## Português
-
 **Especialista em QA e automação de testes orientada a IA**
 
-Trabalho com qualidade de software, automação de testes e uso de IA no processo de QA. Meu foco é conectar a regra de negócio ao comportamento do sistema: o fluxo do usuário, a API por trás dele e as integrações que podem mudar o resultado.
+[English version](README.en.md)
 
-Uso Codex, Cursor e Antigravity como apoio na criação de cenários, análise de código e automação. Também crio skills internas de QA e instruções de projeto para dar contexto aos agentes. Cenários e código gerados precisam ser revisados e executados contra o comportamento esperado.
+Atuo com qualidade de software em aplicações web, mobile, APIs e sistemas com IA. Combino automação, análise de regras de negócio e visão de produto para investigar o que mudou, quais fluxos podem ser afetados e que evidências sustentam uma entrega.
 
-Minha experiência inclui projetos de fintech e bancos na MB Labs, onde dividi minha atuação entre QA e Product Owner. Também passei pela Blis AI, com testes de IA conversacional e automação. Essa visão de produto influencia como avalio riscos e questiono critérios de aceite.
+Este portfólio reúne minhas frentes de atuação e exemplos públicos de código para avaliação técnica.
 
-### Como penso os testes
+## O que posso entregar
 
-- **Começar pela regra:** entender o esperado, as exceções e os critérios de aceite antes de escrever as verificações.
-- **Acompanhar a mudança entre repositórios:** analisar os diffs relevantes de frontend, backend e testes, incluindo contratos e fluxos dependentes.
-- **Dar contexto à IA:** fornecer regras, skills reutilizáveis e fontes do projeto; revisar a saída antes de usá-la como evidência.
-- **Investigar a intermitência:** conferir dados, tempo e estado compartilhado. Passar no retry não explica a causa da falha.
-- **Deixar o resultado verificável:** registrar passos de reprodução e evidências de execução para outra pessoa conferir.
+| Frente | Entregáveis |
+| --- | --- |
+| Estratégia de testes | Análise de riscos, cenários de negócio, critérios de aceite e cobertura de regressão. |
+| Automação web, mobile e API | Suítes de testes, organização de dados e componentes reutilizáveis para os fluxos relevantes do produto. |
+| Qualidade na entrega | Integração de testes ao CI/CD, definição de quality gates e registros de execução para apoiar a decisão de release. |
+| QA com apoio de IA | Skills de qualidade, instruções de projeto e automação assistida por Codex, Cursor e Antigravity, com revisão e execução dos testes gerados. |
+| Testes de aplicações com IA | Cenários para avaliar agentes conversacionais e sistemas com LLMs: contexto, consistência, respostas sem fundamento e comportamento variável. |
+| Investigação de falhas | Reprodução de defeitos, análise de integrações e investigação de flakiness envolvendo dados, tempo e estado compartilhado. |
 
-**Testar com IA** e **testar aplicações de IA** são frentes diferentes do meu trabalho. Uma apoia o processo de QA. A outra examina o comportamento de agentes conversacionais e sistemas com LLMs: contexto, consistência e respostas sem fundamento.
+## Experiência aplicada
 
-Os projetos públicos acima são demonstrações de automação. O trabalho e as skills desenvolvidos internamente nas empresas não estão publicados aqui.
+- **Mouts:** atuação com QA e automação orientada a IA, incluindo uso de ferramentas de apoio e criação de skills internas de qualidade.
+- **Blis AI — experiência anterior:** testes de sistemas de IA conversacional e automação, com atenção à consistência das respostas e ao comportamento não determinístico.
+- **MB Labs:** atuação dividida entre **QA e Product Owner, 50% em cada frente**, em projetos de fintech e bancos. Uso de ChatGPT e, posteriormente, ferramentas como Cursor e Antigravity no trabalho.
+- **BRK:** uso de GPT-3 como apoio à criação de testes e outras atividades de QA, antes da adoção de assistentes integrados a IDEs e CLIs.
 
-### Vamos conversar
+A experiência de produto entra na análise de qualidade: entender o problema de negócio, questionar critérios incompletos e verificar o comportamento que a entrega precisa atender.
 
-Para conversar sobre QA, automação ou testes com IA, me encontre no [LinkedIn](https://www.linkedin.com/in/baccari).
+## Como estruturo o trabalho com IA
+
+1. **Definir o esperado:** reunir regras de negócio, histórias de usuário e critérios de aceite; esclarecer divergências antes de gerar testes.
+2. **Ler a mudança completa:** cruzar os diffs relevantes de backend, frontend e testes, considerando contratos e consumidores.
+3. **Preparar o contexto do agente:** organizar regras, instruções e skills reutilizáveis no workspace, consultando os repositórios pertinentes.
+4. **Revisar e executar:** conferir os cenários gerados e validar o resultado no sistema, com passos e evidências que outra pessoa consiga verificar.
+5. **Investigar e registrar:** analisar falhas e intermitências; registrar aprendizados com fonte e contexto para revalidá-los quando forem reutilizados.
+
+Uso de IA no processo de QA e avaliação de aplicações com IA são competências distintas. Gerar um cenário não comprova sua cobertura; executar um teste exige comparar o resultado com uma regra válida.
+
+## Projetos públicos
+
+### [Cypress · ServeRest](https://github.com/brunobaccari/cypress-serverest)
+
+Exemplo de organização de testes de frontend e API em JavaScript, com cenários de login, usuários e produtos, fixtures e comandos compartilhados.
+
+**Para avaliar:** separação entre as camadas e verificações de resposta da API. O [cenário de produtos](https://github.com/brunobaccari/cypress-serverest/blob/HEAD/cypress/e2e/api/produtos.api.cy.js) inclui listagem, criação e exclusão.
+
+### [Robot Framework · Appium · Flutter](https://github.com/brunobaccari/RobotFramework-Appium-Flutter-Demo)
+
+Estrutura de automação mobile com Robot Framework e Appium, organizada em páginas, recursos, helpers e keywords.
+
+**Para avaliar:** organização dos componentes e composição do [fluxo de login](https://github.com/brunobaccari/RobotFramework-Appium-Flutter-Demo/blob/HEAD/src/Appium/TestCases/Home.robot).
+
+### [Python · Selenium · Checkout](https://github.com/brunobaccari/selenium-test-checkout-automation)
+
+Script de automação de uma jornada de login, carrinho e checkout, com captura de telas e logs.
+
+**Para avaliar:** interação com a interface e registro das etapas no [script principal](https://github.com/brunobaccari/selenium-test-checkout-automation/blob/HEAD/arquivo_principal.py).
+
+Esses repositórios são demonstrações públicas de automação. As skills e soluções desenvolvidas internamente nas empresas não fazem parte deles.
+
+## Stack
+
+| Área | Ferramentas |
+| --- | --- |
+| Linguagens | Python, TypeScript, JavaScript, C# |
+| Automação | Playwright, Robot Framework, Selenium, Cypress, Appium, Tricentis Tosca |
+| APIs e dados | Postman, Swagger, PostgreSQL, Oracle SQL |
+| CI/CD e ambientes | GitHub Actions, Azure DevOps, GitLab, Docker, Linux |
+| Apoio com IA | Codex, Cursor, Antigravity |
+| Gestão de testes e requisitos | Azure Test Plans, Qase, Jira, Confluence |
