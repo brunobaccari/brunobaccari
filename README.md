@@ -40,6 +40,8 @@ Uso de IA no processo de QA e avaliação de aplicações com IA são competênc
 
 ## Projetos públicos
 
+Os projetos de QA têm `README.md` em português e `README.en.md` em inglês, com comandos de execução, escopo e limites. Evidências dos projetos novos ficam em [Execuções e artifacts no Actions](https://github.com/brunobaccari/brunobaccari/actions); a tradução dos projetos anteriores não representa uma nova execução dos testes.
+
 ### [Playwright · TypeScript · Checkout](https://github.com/brunobaccari/playwright-checkout-quality)
 
 Jornada no SauceDemo hospedado: login, carrinho, dados do cliente e compra concluída, com conferência de subtotal, taxa e total. Inclui validação de campos, cancelamento e usuário bloqueado.
@@ -93,6 +95,8 @@ Script de automação de uma jornada de login, carrinho e checkout, com captura 
 **Para avaliar:** interação com a interface e registro das etapas no [script principal](https://github.com/brunobaccari/selenium-test-checkout-automation/blob/HEAD/arquivo_principal.py).
 
 Esses repositórios são demonstrações públicas de automação. As skills e soluções desenvolvidas internamente nas empresas não fazem parte deles.
+
+Outros exemplos de QA: [ServeRest com Page Objects e Cypress](https://github.com/brunobaccari/serverest-cypress) e [login e checkout com Robot Framework](https://github.com/brunobaccari/robot-selenium-demo).
 
 ## Stack
 

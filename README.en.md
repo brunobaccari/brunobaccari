@@ -40,6 +40,8 @@ Using AI in QA and evaluating AI applications are distinct competencies. Generat
 
 ## Public projects
 
+QA projects provide a Portuguese `README.md` and an English `README.en.md`, covering run commands, scope and limits. New projects record execution evidence in [Actions runs and artifacts](https://github.com/brunobaccari/brunobaccari/actions); translating earlier projects does not represent a new test run.
+
 ### [Playwright · TypeScript · Checkout](https://github.com/brunobaccari/playwright-checkout-quality)
 
 Checkout journey against the hosted SauceDemo site: login, cart, customer details and order completion, with subtotal, tax and total assertions. Includes required fields, cancellation and blocked users.
@@ -93,6 +95,8 @@ A script automating login, cart and checkout interactions, with screenshots and 
 **What to review:** UI interaction and step recording in the [main script](https://github.com/brunobaccari/selenium-test-checkout-automation/blob/HEAD/arquivo_principal.py).
 
 These repositories are public automation demonstrations. Skills and solutions developed internally at companies are not included.
+
+Other QA examples: [ServeRest with Page Objects and Cypress](https://github.com/brunobaccari/serverest-cypress) and [login and checkout with Robot Framework](https://github.com/brunobaccari/robot-selenium-demo).
 
 ## Stack
 
