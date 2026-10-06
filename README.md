@@ -8,6 +8,35 @@ Atuo com qualidade de software em aplicações web, mobile, APIs e sistemas com 
 
 Este portfólio reúne minhas frentes de atuação e exemplos públicos de código para avaliação técnica.
 
+## Código e resultados
+
+| Projeto | O que você encontra | Execução conferida |
+| --- | --- | --- |
+| [Python · OpenRouter](https://github.com/brunobaccari/openrouter-free-evals) | Contrato JSON, fatos, fontes e abstenção; resumo por regra e resposta. | [29 testes do avaliador](https://github.com/brunobaccari/openrouter-free-evals/actions/runs/37477844991) |
+| [Playwright · TypeScript](https://github.com/brunobaccari/playwright-checkout-quality) | Checkout no SauceDemo, totais, carrinho e validações de formulário. | [5/5](https://github.com/brunobaccari/playwright-checkout-quality/actions/runs/37475897115) |
+| [Cypress · TypeScript](https://github.com/brunobaccari/cypress-catalog-quality) | Catálogo no ServeRest, conferência UI/API e dados isolados por cenário. | [8/8](https://github.com/brunobaccari/cypress-catalog-quality/actions/runs/37475919215) |
+| [Python · pytest](https://github.com/brunobaccari/python-api-booking) | CRUD, persistência e autorização na API Restful Booker. | [8/8](https://github.com/brunobaccari/python-api-booking/actions/runs/37476153333) |
+| [Maestro · Android](https://github.com/brunobaccari/maestro-android-checkout) | Checkout, quantidade e cenários negativos no My Demo App; emulador no CI. | [5/5](https://github.com/brunobaccari/maestro-android-checkout/actions/runs/37475734008) |
+| [Java · WireMock](https://github.com/brunobaccari/java-wiremock-shipping) | Contrato de frete, timeout, respostas inválidas e recuperação do serviço. | [16/16](https://github.com/brunobaccari/java-wiremock-shipping/actions/runs/37475753840) |
+| [Robot Framework · Selenium](https://github.com/brunobaccari/robot-selenium-checkout) | Checkout por keywords, valores e confirmação do pedido. | [4/4](https://github.com/brunobaccari/robot-selenium-checkout/actions/runs/37480126480) |
+| [Selenium · Python](https://github.com/brunobaccari/selenium-saucedemo-tests) | Ordenação, detalhe do produto, carrinho e encerramento de sessão. | [6/6](https://github.com/brunobaccari/selenium-saucedemo-tests/actions/runs/37480244124) |
+| [Cypress · JavaScript](https://github.com/brunobaccari/serverest-cypress) | API e frontend com Page Objects, JUnit e vídeos por camada. | [13/13](https://github.com/brunobaccari/serverest-cypress/actions/runs/37477540450) |
+
+Execuções conferidas em **6 de outubro de 2026**. Os links abrem o **Summary** do GitHub Actions; os **Artifacts** contêm JUnit, relatórios HTML, screenshots ou vídeos, conforme a suíte. Os downloads seguem a retenção de cada workflow.
+
+Na [avaliação com modelo real](https://github.com/brunobaccari/openrouter-free-evals/actions/runs/37477898147), os cinco casos passaram e a API informou custo zero. O summary mostra pergunta, contexto, valores esperados, resposta recebida e resultado de cada regra. Os 29 testes da tabela verificam o avaliador; esse corpus pequeno não é uma avaliação geral da qualidade do modelo.
+
+Os projetos têm documentação em **português e inglês**, comandos para reprodução e limites de cobertura. As evidências dos projetos novos ficam em [Execuções e artifacts no Actions](https://github.com/brunobaccari/brunobaccari/actions), incluindo falhas investigadas. Os testes Android foram executados em emulador; o material de exploração e importação Xray está preparado, mas não foi executado em um tenant.
+
+### Projetos anteriores
+
+- [Cypress / ServeRest](https://github.com/brunobaccari/cypress-serverest): testes de interface e API em JavaScript.
+- [Robot / Selenium](https://github.com/brunobaccari/robot-selenium-demo): login e checkout organizados em keywords.
+- [Robot / Appium / Flutter](https://github.com/brunobaccari/RobotFramework-Appium-Flutter-Demo): estrutura de automação do login Android.
+- [Selenium / Checkout](https://github.com/brunobaccari/selenium-test-checkout-automation): script de jornada com telas e logs.
+
+Esses quatro exemplos também têm README PT-BR/EN, mas não possuem workflow. As soluções internas das empresas não fazem parte deste portfólio.
+
 ## O que posso entregar
 
 | Frente | Entregáveis |
@@ -38,66 +67,6 @@ A experiência de produto entra na análise de qualidade: entender o problema de
 
 Uso de IA no processo de QA e avaliação de aplicações com IA são competências distintas. Gerar um cenário não comprova sua cobertura; executar um teste exige comparar o resultado com uma regra válida.
 
-## Projetos públicos
-
-Os projetos de QA têm `README.md` em português e `README.en.md` em inglês, com comandos de execução, escopo e limites. Evidências dos projetos novos ficam em [Execuções e artifacts no Actions](https://github.com/brunobaccari/brunobaccari/actions); a tradução dos projetos anteriores não representa uma nova execução dos testes.
-
-### [Playwright · TypeScript · Checkout](https://github.com/brunobaccari/playwright-checkout-quality)
-
-Jornada no SauceDemo hospedado: login, carrinho, dados do cliente e compra concluída, com conferência de subtotal, taxa e total. Inclui validação de campos, cancelamento e usuário bloqueado.
-
-**Para avaliar:** os [cinco cenários](https://github.com/brunobaccari/playwright-checkout-quality/blob/main/tests/checkout.spec.ts), Page Object, esperas pela renderização e evidências de execução no CI.
-
-### [Cypress · TypeScript · Catálogo](https://github.com/brunobaccari/cypress-catalog-quality)
-
-Cadastro e exclusão de produtos com conferência cruzada entre interface e API. Testes separados por camada, dados próprios por cenário e verificações de duplicidade, preço inválido e falha de cadastro.
-
-### [Python · pytest · Restful Booker](https://github.com/brunobaccari/python-api-booking)
-
-Testes da API hospedada: criação, atualização total e parcial, busca, autorização e exclusão de reservas. Conferência de persistência e limpeza dos dados criados pela própria execução.
-
-### [Robot Framework · Selenium · Checkout](https://github.com/brunobaccari/robot-selenium-checkout)
-
-Login e checkout no SauceDemo hospedado, mantendo a organização em clients, cenários, páginas e recursos. Verifica valores, confirmação, campos obrigatórios e remoção do produto.
-
-### [Selenium · Python · Catálogo](https://github.com/brunobaccari/selenium-saucedemo-tests)
-
-Testes parametrizados de ordenação por preço, detalhes dos produtos, carrinho e encerramento de sessão no SauceDemo hospedado. Page Object e screenshots em falhas.
-
-### [Maestro · Android · Checkout](https://github.com/brunobaccari/maestro-android-checkout)
-
-Fluxos no APK oficial do My Demo App: checkout, quantidade, remoção, usuário bloqueado e endereço obrigatório. CI com emulador Android, screenshots, estratégia de testes, exploração manual e casos preparados para importar no Xray.
-
-### [Java · WireMock · Contrato HTTP](https://github.com/brunobaccari/java-wiremock-shipping)
-
-Cliente de cotação de frete testado com respostas controladas: contrato, autorização, timeout, indisponibilidade e recuperação. Verificação das requisições enviadas, valores em BigDecimal e relatórios JUnit no CI.
-
-### [Python · OpenRouter · Avaliação de respostas](https://github.com/brunobaccari/openrouter-free-evals)
-
-Chamadas reais a modelos gratuitos, comparadas com um corpus de atendimento. Valida contrato JSON, fatos, referências, abstenção e resistência a uma instrução indevida no contexto. Inclui testes do próprio avaliador, limite de custo zero e execução manual com secret no Actions.
-
-### [Cypress · ServeRest](https://github.com/brunobaccari/cypress-serverest)
-
-Exemplo de organização de testes de frontend e API em JavaScript, com cenários de login, usuários e produtos, fixtures e comandos compartilhados.
-
-**Para avaliar:** separação entre as camadas e verificações de resposta da API. O [cenário de produtos](https://github.com/brunobaccari/cypress-serverest/blob/HEAD/cypress/e2e/api/produtos.api.cy.js) inclui listagem, criação e exclusão.
-
-### [Robot Framework · Appium · Flutter](https://github.com/brunobaccari/RobotFramework-Appium-Flutter-Demo)
-
-Estrutura de automação mobile com Robot Framework e Appium, organizada em páginas, recursos, helpers e keywords.
-
-**Para avaliar:** organização dos componentes e composição do [fluxo de login](https://github.com/brunobaccari/RobotFramework-Appium-Flutter-Demo/blob/HEAD/src/Appium/TestCases/Home.robot).
-
-### [Python · Selenium · Checkout](https://github.com/brunobaccari/selenium-test-checkout-automation)
-
-Script de automação de uma jornada de login, carrinho e checkout, com captura de telas e logs.
-
-**Para avaliar:** interação com a interface e registro das etapas no [script principal](https://github.com/brunobaccari/selenium-test-checkout-automation/blob/HEAD/arquivo_principal.py).
-
-Esses repositórios são demonstrações públicas de automação. As skills e soluções desenvolvidas internamente nas empresas não fazem parte deles.
-
-Outros exemplos de QA: [ServeRest com Page Objects e Cypress](https://github.com/brunobaccari/serverest-cypress) e [login e checkout com Robot Framework](https://github.com/brunobaccari/robot-selenium-demo).
-
 ## Stack
 
 | Área | Ferramentas |
@@ -108,3 +77,5 @@ Outros exemplos de QA: [ServeRest com Page Objects e Cypress](https://github.com
 | CI/CD e ambientes | GitHub Actions, Azure DevOps, GitLab, Docker, Linux |
 | Apoio com IA | Codex, Cursor, Antigravity |
 | Gestão de testes e requisitos | Azure Test Plans, Qase, Jira, Confluence |
+
+Nos projetos acima também uso **Java, Maestro e WireMock**; os exemplos de Xray estão vinculados à estratégia de testes mobile.
