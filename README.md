@@ -10,7 +10,7 @@ Desenvolvo testes web, de API e mobile, investigo falhas e reviso cenários gera
 
 | Projeto | O que você encontra | Execução conferida |
 | --- | --- | --- |
-| [Python · OpenRouter](https://github.com/brunobaccari/openrouter-free-evals) | Contrato JSON, fatos, fontes e abstenção; resumo por regra e resposta. | [34 testes do avaliador](https://github.com/brunobaccari/openrouter-free-evals/actions/runs/37483760610) |
+| [Python · OpenRouter](https://github.com/brunobaccari/openrouter-free-evals) | 20 cenários de contexto, políticas, fontes, abstenção e prompt injection. | [49 testes do avaliador](https://github.com/brunobaccari/openrouter-free-evals/actions/runs/37484599722) |
 | [Playwright · TypeScript](https://github.com/brunobaccari/playwright-checkout-quality) | Checkout no SauceDemo, totais, carrinho e validações de formulário. | [5/5](https://github.com/brunobaccari/playwright-checkout-quality/actions/runs/37475897115) |
 | [Cypress · TypeScript](https://github.com/brunobaccari/cypress-catalog-quality) | Catálogo no ServeRest, conferência UI/API e dados isolados por cenário. | [8/8](https://github.com/brunobaccari/cypress-catalog-quality/actions/runs/37475919215) |
 | [Python · pytest](https://github.com/brunobaccari/python-api-booking) | CRUD, persistência e autorização na API Restful Booker. | [8/8](https://github.com/brunobaccari/python-api-booking/actions/runs/37476153333) |
