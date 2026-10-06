@@ -70,11 +70,11 @@ Uso Codex, Cursor e Antigravity com contexto do projeto, regras e skills interna
 
 ## ⚙️ O que você pode conferir no código
 
-**QA de aplicações com IA.** No [OpenRouter Evals](https://github.com/brunobaccari/openrouter-free-evals), o avaliador confere respostas estruturadas, fontes, abstenção e regras do cenário. O projeto separa testes do avaliador de chamadas reais ao provedor, com tratamento de 429 e limites explícitos.
+**QA de aplicações com IA.** No [OpenRouter Evals](https://github.com/brunobaccari/pytest-openrouter-evals), o avaliador confere respostas estruturadas, fontes, abstenção e regras do cenário. O projeto separa testes do avaliador de chamadas reais ao provedor, com tratamento de 429 e limites explícitos.
 
 **Integrações entre telas e documentos.** Em [Frames e player](https://github.com/brunobaccari/playwright-embedded-integrations), testo iframes, navegação em frameset legado e reprodução de áudio de outra origem. O [checkout com Playwright](https://github.com/brunobaccari/playwright-checkout-quality) confere carrinho, recálculo e conclusão da compra em um site hospedado.
 
-**Contratos, permissões e falhas.** Há exemplos de autorização com [Cypress](https://github.com/brunobaccari/cypress-catalog-quality), APIs com [Python](https://github.com/brunobaccari/python-api-booking), Android com [Maestro](https://github.com/brunobaccari/maestro-android-checkout) e simulação de falhas HTTP com [Java e WireMock](https://github.com/brunobaccari/java-wiremock-shipping).
+**Contratos, permissões e falhas.** Há exemplos de autorização com [Cypress](https://github.com/brunobaccari/cypress-catalog-quality), APIs com [pytest](https://github.com/brunobaccari/pytest-api-booking), Android com [Maestro](https://github.com/brunobaccari/maestro-android-checkout) e simulação de falhas HTTP com [Java e WireMock](https://github.com/brunobaccari/java-wiremock-shipping).
 
 ➡️ [Todos os projetos, cenários e links de execução](PORTFOLIO.md)
 

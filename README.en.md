@@ -70,11 +70,11 @@ I use Codex, Cursor and Antigravity with project context, rules and internal QA 
 
 ## ⚙️ What you can inspect in the code
 
-**Testing AI applications.** [OpenRouter Evals](https://github.com/brunobaccari/openrouter-free-evals) checks structured responses, sources, abstention and scenario rules. The project separates evaluator tests from live provider calls, with 429 handling and explicit limits.
+**Testing AI applications.** [OpenRouter Evals](https://github.com/brunobaccari/pytest-openrouter-evals) checks structured responses, sources, abstention and scenario rules. The project separates evaluator tests from live provider calls, with 429 handling and explicit limits.
 
 **Integrations across screens and documents.** [Frames and player](https://github.com/brunobaccari/playwright-embedded-integrations) tests iframes, legacy frameset navigation and cross-origin audio playback. [Playwright checkout](https://github.com/brunobaccari/playwright-checkout-quality) checks cart changes, recalculated totals and order completion against a hosted site.
 
-**Contracts, permissions and failures.** Examples cover authorization with [Cypress](https://github.com/brunobaccari/cypress-catalog-quality), APIs with [Python](https://github.com/brunobaccari/python-api-booking), Android with [Maestro](https://github.com/brunobaccari/maestro-android-checkout), and HTTP failure simulation with [Java and WireMock](https://github.com/brunobaccari/java-wiremock-shipping).
+**Contracts, permissions and failures.** Examples cover authorization with [Cypress](https://github.com/brunobaccari/cypress-catalog-quality), APIs with [pytest](https://github.com/brunobaccari/pytest-api-booking), Android with [Maestro](https://github.com/brunobaccari/maestro-android-checkout), and HTTP failure simulation with [Java and WireMock](https://github.com/brunobaccari/java-wiremock-shipping).
 
 ➡️ [All projects, scenarios and execution links](PORTFOLIO.en.md)
 
