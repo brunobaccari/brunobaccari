@@ -40,6 +40,12 @@ Uso de IA no processo de QA e avaliação de aplicações com IA são competênc
 
 ## Projetos públicos
 
+### [Playwright · TypeScript · Checkout](https://github.com/brunobaccari/playwright-checkout-quality)
+
+Testes de checkout com aplicação local, conferindo quantidade, cupom e total na API e na interface. Inclui cenários de erro, entradas inválidas e execução no GitHub Actions.
+
+**Para avaliar:** expectativas explícitas de cálculo, espera pela resposta da operação e evidências de falha. Os [14 cenários](https://github.com/brunobaccari/playwright-checkout-quality/blob/main/tests/checkout.spec.ts) evoluem a frente de checkout do projeto anterior com Selenium.
+
 ### [Cypress · ServeRest](https://github.com/brunobaccari/cypress-serverest)
 
 Exemplo de organização de testes de frontend e API em JavaScript, com cenários de login, usuários e produtos, fixtures e comandos compartilhados.

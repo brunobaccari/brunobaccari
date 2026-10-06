@@ -40,6 +40,12 @@ Using AI in QA and evaluating AI applications are distinct competencies. Generat
 
 ## Public projects
 
+### [Playwright · TypeScript · Checkout](https://github.com/brunobaccari/playwright-checkout-quality)
+
+Checkout tests against a local application, checking quantity, coupon and total in the API and UI. Includes failure scenarios, invalid inputs and a GitHub Actions workflow.
+
+**What to review:** explicit calculation expectations, waiting for the matching response and failure evidence. The [14 scenarios](https://github.com/brunobaccari/playwright-checkout-quality/blob/main/tests/checkout.spec.ts) extend the checkout testing work from the earlier Selenium project.
+
 ### [Cypress · ServeRest](https://github.com/brunobaccari/cypress-serverest)
 
 An example of frontend and API test organization in JavaScript, with login, user and product scenarios, fixtures and shared commands.
