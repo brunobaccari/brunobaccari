@@ -8,6 +8,8 @@ Projects for inspecting scenarios, automation decisions and CI execution. Every 
 
 | Project | What is tested | Runs |
 | --- | --- | --- |
+| [Robot · Appium Android](https://github.com/brunobaccari/robot-appium-android-cart) | Quantities, totals, removal, background/resume and native cart restart. Official Sauce Labs APK and Android emulator, with keywords following the earlier Robot projects. | [Actions](https://github.com/brunobaccari/robot-appium-android-cart/actions) |
+| [Detox · React Native lifecycle](https://github.com/brunobaccari/detox-react-native-lifecycle) | UI state, background/resume and process restart in the official Wix sample. Release build with bundled JS; no backend or durable persistence. | [Actions](https://github.com/brunobaccari/detox-react-native-lifecycle/actions) |
 | [Playwright · Accessibility](https://github.com/brunobaccari/playwright-accessibility) | Keyboard, focus, labels and axe scans on the W3C survey. A negative control detects known defects; inconclusive results still require manual review. | [Actions](https://github.com/brunobaccari/playwright-accessibility/actions) |
 | [k6 · Performance](https://github.com/brunobaccari/k6-api-performance) | Nine-request smoke against QuickPizza: contracts, restrictions, authentication and timing thresholds. Small sample, without capacity or SLA estimates. | [Actions](https://github.com/brunobaccari/k6-api-performance/actions) |
 | [Pact · Contracts](https://github.com/brunobaccari/pact-api-contracts) | Consumer contracts verified against hosted Restful Booker; incompatible type rejection and cleanup of owned data. No Broker or provider deployment gate. | [Actions](https://github.com/brunobaccari/pact-api-contracts/actions) |
