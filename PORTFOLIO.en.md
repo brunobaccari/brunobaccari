@@ -8,6 +8,8 @@ Projects for inspecting scenarios, automation decisions and CI execution. Every 
 
 | Project | What is tested | Runs |
 | --- | --- | --- |
+| [Postman · Newman HTTP](https://github.com/brunobaccari/postman-newman-http-contracts) | Unicode, encoding, JSON types, status codes and authentication on hosted Postman Echo. No persistence or load testing. | [Actions](https://github.com/brunobaccari/postman-newman-http-contracts/actions) |
+| [LangChain · Context contracts](https://github.com/brunobaccari/langchain-grounding-tests) | Current-policy selection, allowed references, abstention and strict parsing. Offline chain tests; no real model evaluation. | [Actions](https://github.com/brunobaccari/langchain-grounding-tests/actions) |
 | [Robot · Appium Android](https://github.com/brunobaccari/robot-appium-android-cart) | Quantities, totals, removal, background/resume and native cart restart. Official Sauce Labs APK and Android emulator, with keywords following the earlier Robot projects. | [Actions](https://github.com/brunobaccari/robot-appium-android-cart/actions) |
 | [Detox · React Native lifecycle](https://github.com/brunobaccari/detox-react-native-lifecycle) | UI state, background/resume and process restart in the official Wix sample. Release build with bundled JS; no backend or durable persistence. | [Actions](https://github.com/brunobaccari/detox-react-native-lifecycle/actions) |
 | [Playwright · Accessibility](https://github.com/brunobaccari/playwright-accessibility) | Keyboard, focus, labels and axe scans on the W3C survey. A negative control detects known defects; inconclusive results still require manual review. | [Actions](https://github.com/brunobaccari/playwright-accessibility/actions) |
