@@ -8,6 +8,16 @@ I work on test strategy, automation and failure investigation. I connect accepta
 
 I use Codex, Cursor and Antigravity with project context, rules and internal QA skills. My experience as both QA and Product Owner helps connect tests to the product and its integrations.
 
+## 🔎 Start with these three
+
+| Project | Decision demonstrated | Evidence |
+| --- | --- | --- |
+| [pytest · OpenRouter Evals](https://github.com/brunobaccari/pytest-openrouter-evals) | Separate response failures, provider outages and incomplete evaluations before promoting a prompt. | [135 tests + manual corpus](https://github.com/brunobaccari/pytest-openrouter-evals/actions/runs/37506000813). This does not approve live models. |
+| [Playwright · Frames and player](https://github.com/brunobaccari/playwright-embedded-integrations) | Verify document isolation and real playback; a visible player does not prove audio works. | [7 scenarios against the hosted application](https://github.com/brunobaccari/playwright-embedded-integrations/actions/runs/37504326062). |
+| [Pact · Contracts](https://github.com/brunobaccari/pact-api-contracts/blob/main/README.en.md#case-from-requirement-to-rejection) | Prove detection of a type incompatibility and confirm test data cleanup. | [5 tests and a negative control](https://github.com/brunobaccari/pact-api-contracts/actions/runs/37511425649). |
+
+[All projects](PORTFOLIO.en.md) · Runs include summaries and artifacts subject to each workflow's retention policy.
+
 # 💻 Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -67,18 +77,6 @@ I use Codex, Cursor and Antigravity with project context, rules and internal QA 
 ![AI Testing](https://img.shields.io/badge/🤖%20ai%20testing-111111?style=for-the-badge)
 ![LLM Testing](https://img.shields.io/badge/🧩%20llm%20testing-111111?style=for-the-badge)
 ![Agents Validation](https://img.shields.io/badge/🕹️%20agents%20validation-111111?style=for-the-badge)
-
-## ⚙️ What you can inspect in the code
-
-**Testing AI applications.** [OpenRouter Evals](https://github.com/brunobaccari/pytest-openrouter-evals) checks structured responses, sources, abstention and scenario rules. The project separates evaluator tests from live provider calls, with 429 handling and explicit limits.
-
-**Integrations across screens and documents.** [Frames and player](https://github.com/brunobaccari/playwright-embedded-integrations) tests iframes, legacy frameset navigation and cross-origin audio playback. [Playwright checkout](https://github.com/brunobaccari/playwright-checkout-quality) checks cart changes, recalculated totals and order completion against a hosted site.
-
-**Contracts, permissions and failures.** Examples cover authorization with [Cypress](https://github.com/brunobaccari/cypress-catalog-quality), APIs with [pytest](https://github.com/brunobaccari/pytest-api-booking), Android with [Maestro](https://github.com/brunobaccari/maestro-android-checkout), and HTTP failure simulation with [Java and WireMock](https://github.com/brunobaccari/java-wiremock-shipping).
-
-➡️ [All projects, scenarios and execution links](PORTFOLIO.en.md)
-
-**Accessibility, performance and contracts.** [Playwright with axe](https://github.com/brunobaccari/playwright-accessibility) combines scans and keyboard navigation. [k6](https://github.com/brunobaccari/k6-api-performance) runs a bounded smoke, while [Pact](https://github.com/brunobaccari/pact-api-contracts) verifies contracts against a hosted provider, including a deliberate incompatibility to check rejection.
 
 ## 🧠 How I approach quality
 

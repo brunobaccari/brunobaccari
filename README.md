@@ -8,6 +8,16 @@ Trabalho com estratégia de testes, automação e investigação de falhas. Cruz
 
 Uso Codex, Cursor e Antigravity com contexto do projeto, regras e skills internas de qualidade. Minha experiência como QA e Product Owner ajuda a conectar o teste ao produto e às integrações envolvidas.
 
+## 🔎 Comece por estes três
+
+| Projeto | Decisão demonstrada | Evidência |
+| --- | --- | --- |
+| [pytest · OpenRouter Evals](https://github.com/brunobaccari/pytest-openrouter-evals) | Separar falha de resposta, indisponibilidade e avaliação incompleta antes de promover um prompt. | [135 testes + corpus manual](https://github.com/brunobaccari/pytest-openrouter-evals/actions/runs/37506000813). Não é aprovação de modelos live. |
+| [Playwright · Frames e player](https://github.com/brunobaccari/playwright-embedded-integrations) | Verificar isolamento entre documentos e reprodução real, sem confundir player visível com áudio funcionando. | [7 cenários na aplicação hospedada](https://github.com/brunobaccari/playwright-embedded-integrations/actions/runs/37504326062). |
+| [Pact · Contratos](https://github.com/brunobaccari/pact-api-contracts#case-do-requisito-ao-bloqueio) | Comprovar que uma incompatibilidade de tipo é detectada e que os dados de teste são removidos. | [5 testes e controle negativo](https://github.com/brunobaccari/pact-api-contracts/actions/runs/37511425649). |
+
+[Todos os projetos](PORTFOLIO.md) · As execuções têm summary e artifacts sujeitos à retenção de cada workflow.
+
 # 💻 Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -67,18 +77,6 @@ Uso Codex, Cursor e Antigravity com contexto do projeto, regras e skills interna
 ![AI Testing](https://img.shields.io/badge/🤖%20ai%20testing-111111?style=for-the-badge)
 ![LLM Testing](https://img.shields.io/badge/🧩%20llm%20testing-111111?style=for-the-badge)
 ![Agents Validation](https://img.shields.io/badge/🕹️%20agents%20validation-111111?style=for-the-badge)
-
-## ⚙️ O que você pode conferir no código
-
-**QA de aplicações com IA.** No [OpenRouter Evals](https://github.com/brunobaccari/pytest-openrouter-evals), o avaliador confere respostas estruturadas, fontes, abstenção e regras do cenário. O projeto separa testes do avaliador de chamadas reais ao provedor, com tratamento de 429 e limites explícitos.
-
-**Integrações entre telas e documentos.** Em [Frames e player](https://github.com/brunobaccari/playwright-embedded-integrations), testo iframes, navegação em frameset legado e reprodução de áudio de outra origem. O [checkout com Playwright](https://github.com/brunobaccari/playwright-checkout-quality) confere carrinho, recálculo e conclusão da compra em um site hospedado.
-
-**Contratos, permissões e falhas.** Há exemplos de autorização com [Cypress](https://github.com/brunobaccari/cypress-catalog-quality), APIs com [pytest](https://github.com/brunobaccari/pytest-api-booking), Android com [Maestro](https://github.com/brunobaccari/maestro-android-checkout) e simulação de falhas HTTP com [Java e WireMock](https://github.com/brunobaccari/java-wiremock-shipping).
-
-➡️ [Todos os projetos, cenários e links de execução](PORTFOLIO.md)
-
-**Acessibilidade, performance e contratos.** [Playwright com axe](https://github.com/brunobaccari/playwright-accessibility) combina scans e navegação por teclado. O [k6](https://github.com/brunobaccari/k6-api-performance) aplica um smoke de carga limitada, e o [Pact](https://github.com/brunobaccari/pact-api-contracts) verifica contratos contra um provedor hospedado, incluindo uma incompatibilidade proposital para conferir o bloqueio.
 
 ## 🧠 Como conduzo a qualidade
 
