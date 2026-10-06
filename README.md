@@ -31,6 +31,19 @@ Uso Codex, Cursor e Antigravity com contexto do projeto, regras e skills interna
 ![Appium](https://img.shields.io/badge/Appium-EE376D?style=for-the-badge&logo=appium&logoColor=white)
 ![Tricentis Tosca](https://img.shields.io/badge/Tricentis%20Tosca-005A9C?style=for-the-badge&logo=tricentis)
 
+[![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://github.com/brunobaccari/pytest-api-booking)
+[![CodeceptJS](https://img.shields.io/badge/CodeceptJS-F6E05E?style=for-the-badge&logoColor=black)](https://github.com/brunobaccari/codeceptjs-web-flows)
+[![axe-core](https://img.shields.io/badge/axe--core-663399?style=for-the-badge)](https://github.com/brunobaccari/playwright-accessibility)
+
+[![Maestro](https://img.shields.io/badge/Maestro-0A66C2?style=for-the-badge)](https://github.com/brunobaccari/maestro-android-checkout)
+[![Detox](https://img.shields.io/badge/Detox-111111?style=for-the-badge)](https://github.com/brunobaccari/detox-react-native-lifecycle)
+[![Espresso](https://img.shields.io/badge/Espresso-3DDC84?style=for-the-badge&logo=android&logoColor=black)](https://github.com/brunobaccari/espresso-android-intents)
+
+[![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)](https://github.com/brunobaccari/k6-api-performance)
+[![Pact](https://img.shields.io/badge/Pact-EA5B0C?style=for-the-badge)](https://github.com/brunobaccari/pact-api-contracts)
+[![WireMock](https://img.shields.io/badge/WireMock-00A3E0?style=for-the-badge)](https://github.com/brunobaccari/java-wiremock-shipping)
+[![OpenRouter](https://img.shields.io/badge/OpenRouter-6467F2?style=for-the-badge)](https://github.com/brunobaccari/pytest-openrouter-evals)
+
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
