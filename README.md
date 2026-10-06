@@ -42,9 +42,37 @@ Uso de IA no processo de QA e avaliação de aplicações com IA são competênc
 
 ### [Playwright · TypeScript · Checkout](https://github.com/brunobaccari/playwright-checkout-quality)
 
-Testes de checkout com aplicação local, conferindo quantidade, cupom e total na API e na interface. Inclui cenários de erro, entradas inválidas e execução no GitHub Actions.
+Jornada no SauceDemo hospedado: login, carrinho, dados do cliente e compra concluída, com conferência de subtotal, taxa e total. Inclui validação de campos, cancelamento e usuário bloqueado.
 
-**Para avaliar:** expectativas explícitas de cálculo, espera pela resposta da operação e evidências de falha. Os [14 cenários](https://github.com/brunobaccari/playwright-checkout-quality/blob/main/tests/checkout.spec.ts) evoluem a frente de checkout do projeto anterior com Selenium.
+**Para avaliar:** os [cinco cenários](https://github.com/brunobaccari/playwright-checkout-quality/blob/main/tests/checkout.spec.ts), Page Object, esperas pela renderização e evidências de execução no CI.
+
+### [Cypress · TypeScript · Catálogo](https://github.com/brunobaccari/cypress-catalog-quality)
+
+Cadastro e exclusão de produtos com conferência cruzada entre interface e API. Testes separados por camada, dados próprios por cenário e verificações de duplicidade, preço inválido e falha de cadastro.
+
+### [Python · pytest · Restful Booker](https://github.com/brunobaccari/python-api-booking)
+
+Testes da API hospedada: criação, atualização total e parcial, busca, autorização e exclusão de reservas. Conferência de persistência e limpeza dos dados criados pela própria execução.
+
+### [Robot Framework · Selenium · Checkout](https://github.com/brunobaccari/robot-selenium-checkout)
+
+Login e checkout no SauceDemo hospedado, mantendo a organização em clients, cenários, páginas e recursos. Verifica valores, confirmação, campos obrigatórios e remoção do produto.
+
+### [Selenium · Python · Catálogo](https://github.com/brunobaccari/selenium-saucedemo-tests)
+
+Testes parametrizados de ordenação por preço, detalhes dos produtos, carrinho e encerramento de sessão no SauceDemo hospedado. Page Object e screenshots em falhas.
+
+### [Maestro · Android · Checkout](https://github.com/brunobaccari/maestro-android-checkout)
+
+Fluxos no APK oficial do My Demo App: checkout, quantidade, remoção, usuário bloqueado e endereço obrigatório. CI com emulador Android, screenshots, estratégia de testes, exploração manual e casos preparados para importar no Xray.
+
+### [Java · WireMock · Contrato HTTP](https://github.com/brunobaccari/java-wiremock-shipping)
+
+Cliente de cotação de frete testado com respostas controladas: contrato, autorização, timeout, indisponibilidade e recuperação. Verificação das requisições enviadas, valores em BigDecimal e relatórios JUnit no CI.
+
+### [Python · OpenRouter · Avaliação de respostas](https://github.com/brunobaccari/openrouter-free-evals)
+
+Chamadas reais a modelos gratuitos, comparadas com um corpus de atendimento. Valida contrato JSON, fatos, referências, abstenção e resistência a uma instrução indevida no contexto. Inclui testes do próprio avaliador, limite de custo zero e execução manual com secret no Actions.
 
 ### [Cypress · ServeRest](https://github.com/brunobaccari/cypress-serverest)
 
