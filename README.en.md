@@ -78,6 +78,8 @@ I use Codex, Cursor and Antigravity with project context, rules and internal QA 
 
 ➡️ [All projects, scenarios and execution links](PORTFOLIO.en.md)
 
+**Accessibility, performance and contracts.** [Playwright with axe](https://github.com/brunobaccari/playwright-accessibility) combines scans and keyboard navigation. [k6](https://github.com/brunobaccari/k6-api-performance) runs a bounded smoke, while [Pact](https://github.com/brunobaccari/pact-api-contracts) verifies contracts against a hosted provider, including a deliberate incompatibility to check rejection.
+
 ## 🧠 How I approach quality
 
 - Start with risk and expected behavior; choose the test boundary according to the integration involved.

@@ -78,6 +78,8 @@ Uso Codex, Cursor e Antigravity com contexto do projeto, regras e skills interna
 
 ➡️ [Todos os projetos, cenários e links de execução](PORTFOLIO.md)
 
+**Acessibilidade, performance e contratos.** [Playwright com axe](https://github.com/brunobaccari/playwright-accessibility) combina scans e navegação por teclado. O [k6](https://github.com/brunobaccari/k6-api-performance) aplica um smoke de carga limitada, e o [Pact](https://github.com/brunobaccari/pact-api-contracts) verifica contratos contra um provedor hospedado, incluindo uma incompatibilidade proposital para conferir o bloqueio.
+
 ## 🧠 Como conduzo a qualidade
 
 - Começo pelo risco e pelo comportamento esperado; escolho onde testar pela integração envolvida.
