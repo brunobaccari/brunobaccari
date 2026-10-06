@@ -2,7 +2,7 @@
 
 **Especialista em QA · Automação orientada a IA · Web, API e Mobile**
 
-[English version](README.en.md) · [Portfólio técnico](PORTFOLIO.md)
+[English version](README.en.md) · [Site do portfólio](https://brunobaccari.github.io/) · [Portfólio técnico](PORTFOLIO.md)
 
 Trabalho com estratégia de testes, automação e investigação de falhas. Cruzo critérios de aceite, regras de negócio e comportamento da aplicação para decidir o que precisa ser testado, inclusive quando a IA participa da entrega.
 

@@ -2,7 +2,7 @@
 
 **QA Specialist · AI-assisted test automation · Web, API and Mobile**
 
-[Versão em português](README.md) · [Technical portfolio](PORTFOLIO.en.md)
+[Versão em português](README.md) · [Portfolio website](https://brunobaccari.github.io/en/) · [Technical portfolio](PORTFOLIO.en.md)
 
 I work on test strategy, automation and failure investigation. I connect acceptance criteria, business rules and application behavior to decide what needs testing, including when AI is part of the delivery.
 
