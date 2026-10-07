@@ -4,6 +4,8 @@
 
 [English version](README.en.md) · [Site do portfólio](https://brunobaccari.github.io/) · [Portfólio técnico](PORTFOLIO.md)
 
+📄 Currículo: [Português (PDF)](https://brunobaccari.github.io/cv/Bruno_Baccari_QA_PTBR.pdf) · [English (PDF)](https://brunobaccari.github.io/cv/Bruno_Baccari_QA_EN.pdf)
+
 Trabalho com estratégia de testes, automação e investigação de falhas. Cruzo critérios de aceite, regras de negócio e comportamento da aplicação para decidir o que precisa ser testado, inclusive quando a IA participa da entrega.
 
 Uso Codex, Cursor e Antigravity com contexto do projeto, regras e skills internas de qualidade. Minha experiência como QA e Product Owner ajuda a conectar o teste ao produto e às integrações envolvidas.

@@ -2,6 +2,8 @@
 
 [Voltar ao perfil](README.md) · [English version](PORTFOLIO.en.md)
 
+📄 Currículo: [Português (PDF)](https://brunobaccari.github.io/cv/Bruno_Baccari_QA_PTBR.pdf) · [English (PDF)](https://brunobaccari.github.io/cv/Bruno_Baccari_QA_EN.pdf)
+
 Projetos para examinar cenários, decisões de automação e execução no CI. Cada repositório tem instruções em português e inglês. Os links de Actions levam às execuções, summaries e artifacts disponíveis conforme a retenção de cada workflow.
 
 ## Projetos
