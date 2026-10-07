@@ -10,6 +10,7 @@ Projects for inspecting scenarios, automation decisions and CI execution. Every 
 
 | Project | What is tested | Runs |
 | --- | --- | --- |
+| [Karate · Catalog contracts](https://github.com/brunobaccari/karate-api-catalog) | Pagination, ordering, filters and projection against hosted DummyJSON, using Java and Karate. PATCH/DELETE are simulated; a new read verifies the absence of persistence. | [Actions](https://github.com/brunobaccari/karate-api-catalog/actions) |
 | [Postman · Newman HTTP](https://github.com/brunobaccari/postman-newman-http-contracts) | Unicode, encoding, JSON types, status codes and authentication on hosted Postman Echo. No persistence or load testing. | [Actions](https://github.com/brunobaccari/postman-newman-http-contracts/actions) |
 | [LangChain · Context contracts](https://github.com/brunobaccari/langchain-grounding-tests) | Current-policy selection, allowed references, abstention and strict parsing. Offline chain tests; no real model evaluation. | [Actions](https://github.com/brunobaccari/langchain-grounding-tests/actions) |
 | [Robot · Appium Android](https://github.com/brunobaccari/robot-appium-android-cart) | Quantities, totals, removal, background/resume and native cart restart. Official Sauce Labs APK and Android emulator, with keywords following the earlier Robot projects. | [Actions](https://github.com/brunobaccari/robot-appium-android-cart/actions) |

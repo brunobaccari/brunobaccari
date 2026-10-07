@@ -26,6 +26,7 @@ I use Codex, Cursor and Antigravity with project context, rules and internal QA 
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/brunobaccari/pytest-api-booking)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/brunobaccari/playwright-embedded-integrations)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge)](https://github.com/brunobaccari/karate-api-catalog)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ### Test automation
@@ -47,6 +48,7 @@ I use Codex, Cursor and Antigravity with project context, rules and internal QA 
 [![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)](https://github.com/brunobaccari/k6-api-performance)
 [![Pact](https://img.shields.io/badge/Pact-EA5B0C?style=for-the-badge)](https://github.com/brunobaccari/pact-api-contracts)
 [![WireMock](https://img.shields.io/badge/WireMock-00A3E0?style=for-the-badge)](https://github.com/brunobaccari/java-wiremock-shipping)
+[![Karate](https://img.shields.io/badge/Karate-111111?style=for-the-badge)](https://github.com/brunobaccari/karate-api-catalog)
 
 [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://github.com/brunobaccari/postman-newman-http-contracts)
 
